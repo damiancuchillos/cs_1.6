@@ -1,5 +1,5 @@
 function myFunction() {
-    const mensaje = "Hola!";
+    const mensaje = "Pute el que lo ha leido";
     secondFunction(mensaje);
 }
 

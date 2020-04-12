@@ -11,21 +11,27 @@ h1 {
 }
 
 li {
-  color: rgb(255, 0, 212);
+  color: rgb(145, 34, 135);
   background-color: rgb(196, 170, 26);
+  padding: 1%;
+  text-align: center;
+  font-size: 200%;
 }
 
 p {
   color: blue;
+  text-align: center;
+  font-size: 200%;
 }
 
 a:link, a:visited {
-  background-color: #f44336;
+  background-color: #d8455d;
   color: white;
   padding: 1% 2%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  width: 40%;
 }
 
 .tituloSecundario {
