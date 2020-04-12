@@ -61,15 +61,17 @@ img {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
 }
 
 td {
-  border: 1px solid #b14747;
-  text-align: left;
+  border: 1px solid #2e03ee;
+  text-align: center;
   padding: 8px;
+  width: 25%;
 }
 
 tr:nth-child(even) {
-  background-color: #5f5151;
+  background-color: #6d6565;
 }
