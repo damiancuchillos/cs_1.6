@@ -4,6 +4,7 @@ body {
 
 h1 {
   color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: rgb(14, 112, 209);
   font-size: 400%;
   text-align: center;
@@ -11,16 +12,32 @@ h1 {
 
 li {
   color: rgb(255, 0, 212);
+  background-color: rgb(196, 170, 26);
 }
 
 p {
   color: blue;
 }
 
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .tituloSecundario {
   color: Tomato;
-  font-size: 200%;
+  font-size: 250%;
   text-align: center;
+}
+
+.tituloTerciario {
+  color: mediumseagreen;
+  font-size: 200%;
+  text-align: left;
 }
 
 .center {
@@ -32,4 +49,27 @@ p {
 .divCenter {
     text-align: center;
     padding: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #b14747;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #5f5151;
 }
