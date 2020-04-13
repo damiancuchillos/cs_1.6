@@ -14,7 +14,9 @@
     <img class="center" src="Logo2.jpg">
     <img class="center" src="mira.png" width="9%" height="9%">
     <div class="divCenter">
-        <button onclick="myFunction();">Hacer Click</button>
+        <button onclick="condicional(50);">Condicional</button>
+        <button onclick="iteracionFor(100);">Iteracion For</button>
+        <button onclick="iteracionWhile(500);">Iteracion While</button>
     </div>
     <bgsound src="Tony.ogg" loop="loop">
     </bgsound>
@@ -72,80 +74,95 @@
             </td>
         </tr>
     </table>
-    <ul>
-        <div style="background-color:rgb(112, 146, 19);padding:20px;">
-            <li id="Ariel"><b>Ariel:</b></li>
-            <p>Jugador aguerrido, rapido y eficaz. Te descuidas y estas muerto. Tiene problemas de lag pero juga en una
-                mac.
+    <ul style="list-style: none;">
+        <li id="Ariel">
+            <div class="tituloLi">Ariel</div>
+            <div style="background-color:rgb(112, 146, 19);padding:20px;">
+                <p>Jugador aguerrido, rapido y eficaz. Te descuidas y estas muerto. Tiene problemas de lag pero juga en
+                    una mac.</p>
+                <img src="Ariel.jpg" title="Surfer" width="30%" height="30%">
+                <br><br>
+            </div>
+        </li>
+        <li id="Pablo">
+            <div class="tituloLi">Pablo</div>
+            <p>Atento a la jugada, se toma su tiempo para el disparo. Jugador con mucho potencial pero baja
+                disponibilidad para jugar.</p>
+            <img src="Pablo.jpg" title="Casi Hacker" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Damian">
+            <div class="tituloLi">Damian</div>
+            <p>Compra y te mete bala, de una, a veces no le sale. Jugador versatil y arriesgado, no tiene muy buena
+                vision del juego. Gran hosteardor todo estan muy contentos por su diversidad en carga de mapas.</p>
+            <img src="Damian.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="El Gordo">
+            <div class="tituloLi">El Gordo</div>
+            <p>Gran jugador, calenton y un poco excedido de peso. Es mas facil detectarlo en el mapa por su zapan,
+                blanco facil por razones obvias. Especialidad acuchillarte por la espalda.</p>
+            <img src="El gordo.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Mono">
+            <div class="tituloLi">Mono</div>
+            <p>Gran vicioso del juego. Nunca le perdio la mano y volvio facilmente al nivel de carreto. Tiene cara de
+                chimpace pero igual con esa jeta te peina para adentro. Su jefa no lo deja jugar mucho.</p>
+            <img src="El mono.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Ale">
+            <div class="tituloLi">Ale</div>
+            <p>Jugador de las grandes esferas. Habilidoso con su pistola. Arma dupla letal con Damian, juntos son la
+                pesadilla del cuco.</p>
+            <img src="Ale.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Tero">
+            <div class="tituloLi">Tero</div>
+            <p>Ave rapaz nocturna. Siempre juega con el mate al lado. Se desconocen debilidades y habilidades del
+                jugador.
             </p>
-            <img src="Ariel.jpg" title="Surfer" width="30%" height="30%">
-            <br>
-            <br>
-        </div>
-        <li id="Pablo"><i>Pablo:</i></li>
-        <p>Atento a la jugada, se toma su tiempo para el disparo. Jugador con mucho potencial pero baja disponibilidad
-            para jugar.</p>
-        <img src="Pablo.jpg" title="Casi Hacker" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Damian"><mark>Damian:</mark></li>
-        <p>Compra y te mete bala, de una, a veces no le sale. Jugador versatil y arriesgado, no tiene muy buena vision
-            del juego. Gran hosteardor todo estan muy contentos por su diversidad en carga de mapas.</p>
-        <img src="Damian.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="El Gordo"><strong>El Gordo:</strong></li>
-        <p>gran jugador, calenton y un poco excedido de peso. Es mas facil detectarlo en el mapa por su zapan, blanco
-            facil por razones obvias. Especialidad acuchillarte por la espalda.</p>
-        <img src="El gordo.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Mono">Mono:</li>
-        <p>Gran vicioso del juego. Nunca le perdio la mano y volvio facilmente al nivel de carreto. Tiene cara de
-            chimpace pero igual con esa jeta te peina para adentro. Su jefa no lo deja jugar mucho.</p>
-        <img src="El mono.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Ale">Ale:</li>
-        <p>Jugador de las grandes esferas. Habilidoso con su pistola. Arma dupla letal con Damian, juntos son la
-            pesadilla del cuco.</p>
-        <img src="Ale.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Tero">Tero:</li>
-        <p>Ave rapaz nocturna. Siempre juega con el mate al lado. Se desconocen debilidades y habilidades del jugador.
-        </p>
-        <img src="Tero.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Vicho">Vicho:</li>
-        <p>Experto jugador en la compra y venta de armas. Gran lanzador de bombas. Campeador por excelencia. Le gustan
-            las armas con mira, como juegan las nenas! Mejora la punteria a medida que va destapando cervezas.</p>
-        <img src="vicho.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="cuco">cuco:</li>
-        <p>Rookie pero con proyeccion y gran habilidad en el juego. Su naso le juega una mala pasada. Le gusta parar las
-            balas con la napia. Sale del laburo y esta dispuesto a viciar siempre.</p>
-        <img src="cuco.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Eze">Eze:</li>
-        <p>Jugador destacado en el uso de armas de asalto. Su pantalla favorita es iceworld. En medio de las partidas se
-            tira al piso para verlas mejor. Cabecea facil. Nunca juega sin un federico alvear al lado.</p>
-        <img src="Eze.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Diego">Diego:</li>
-        <p>No lo dejan jugar.</p>
-        <img src="Diego.jpg" width="30%" height="30%">
-        <br>
-        <br>
-        <li id="Pot">Pot:</li>
-        <p>Tiene miedo a jugar.</p>
-        <img src="pot.jpg" width="30%" height="30%">
+            <img src="Tero.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Vicho">
+            <div class="tituloLi">Vicho</div>
+            <p>Experto jugador en la compra y venta de armas. Gran lanzador de bombas. Campeador por excelencia. Le
+                gustan las armas con mira, como juegan las nenas! Mejora la punteria a medida que va destapando
+                cervezas.</p>
+            <img src="vicho.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="cuco">
+            <div class="tituloLi">Cuco</div>
+            <p>Rookie pero con proyeccion y gran habilidad en el juego. Su naso le juega una mala pasada. Le gusta parar
+                las balas con la napia. Sale del laburo y esta dispuesto a viciar siempre.</p>
+            <img src="cuco.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Eze">
+            <div class="tituloLi">Eze</div>
+            <p>Jugador destacado en el uso de armas de asalto. Su pantalla favorita es iceworld. En medio de las
+                partidas se tira al piso para verlas mejor. Cabecea facil. Nunca juega sin un federico alvear al lado.
+            </p>
+            <img src="Eze.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Diego">
+            <div class="tituloLi">Diego</div>
+            <p>No lo dejan jugar.</p>
+            <img src="Diego.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
+        <li id="Pot">
+            <div class="tituloLi">Pot</div>
+            <p>Tiene miedo a jugar.</p>
+            <img src="pot.jpg" width="30%" height="30%">
+            <br><br>
+        </li>
     </ul>
-
 </body>
 
 </html>

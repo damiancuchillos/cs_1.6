@@ -4,18 +4,10 @@ body {
 
 h1 {
   color: red;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: rgb(14, 112, 209);
   font-size: 400%;
   text-align: center;
-}
-
-li {
-  color: rgb(145, 34, 135);
-  background-color: rgb(196, 170, 26);
-  padding: 1%;
-  text-align: center;
-  font-size: 200%;
 }
 
 p {
@@ -24,7 +16,8 @@ p {
   font-size: 200%;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   background-color: #d8455d;
   color: white;
   padding: 1% 2%;
@@ -32,6 +25,15 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   width: 40%;
+}
+
+.tituloLi {
+  color: rgb(145, 34, 135);
+  background-color: rgb(196, 170, 26);
+  padding: 1%;
+  text-align: center;
+  font-size: 200%;
+  text-align: center;
 }
 
 .tituloSecundario {
@@ -53,15 +55,14 @@ a:link, a:visited {
 }
 
 .divCenter {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 table {
