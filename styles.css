@@ -59,6 +59,18 @@ a:visited {
   padding: 5px;
 }
 
+.divCenterX {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(133, 89, 146);
+}
+
+.divCenterY {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(126, 118, 73);
+}
+
 img {
   display: block;
   margin-left: auto;

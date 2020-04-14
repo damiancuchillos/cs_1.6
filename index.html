@@ -13,22 +13,44 @@
     <img class="center" src="Logo1.jpg" width="300" height="300">
     <img class="center" src="Logo2.jpg">
     <img class="center" src="mira.png" width="9%" height="9%">
-    <div class="divCenter">
+    <div class="divCenterX">
         <button onclick="condicional(50);">Condicional</button>
         <button onclick="iteracionFor(100);">Iteracion For</button>
         <button onclick="iteracionWhile(500);">Iteracion While</button>
     </div>
-    <bgsound src="Tony.ogg" loop="loop">
-    </bgsound>
-    <embed src="Tony.ogg" type="audio/ogg" loop="true">
-    </embed>
-    <audio controls="controls" autoplay="autoplay" loop="loop">
-        <source src="gamestartup.ogg" type="audio/ogg">
-        <source src="gamestartup.mp3" type="audio/mpeg">
-    </audio>
-    <audio controls="controls" autoplay="autoplay" loop="loop">
-        <source src="Tony.ogg" type="audio/ogg">
-    </audio>
+    <div class="divCenterY">
+        <bgsound src="Tony.ogg" loop="loop">
+        </bgsound>
+        <embed src="Tony.ogg" type="audio/ogg" loop="true">
+        </embed>
+        <audio controls="controls" autoplay="autoplay" loop="loop">
+            <source src="gamestartup.ogg" type="audio/ogg">
+            <source src="gamestartup.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls="controls" autoplay="autoplay" loop="loop">
+            <source src="Tony.ogg" type="audio/ogg">
+        </audio>
+        <video controls autoplay loop="loop">
+            <source src="Emerge.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="divCenterX">
+        <h2>Videos</h2>
+        <iframe width="507" height="380" src="https://www.youtube.com/embed/Uu8DuTdQDCc" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            type="video/webM">
+        </iframe>
+        <iframe width="650" height="365" src="https://www.youtube.com/embed/6NWYjw13GX8" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br>
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+        </iframe>
+        <br>
+        <iframe width="998" height="753" src="https://www.youtube.com/embed/fZhoNw4q6bI" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
     <h3 class="tituloTerciario">Jugadores:</h3>
     <table>
         <tr>
@@ -163,6 +185,13 @@
             <br><br>
         </li>
     </ul>
+    <div class="divCenterX">
+        <button onclick="funDam()" style="background-color:rgb(161, 185, 24);">Click me
+        </button>
+        <br>
+        <button onclick="nuevaVentana()">Hit me
+        </button>
+    </div>
 </body>
 
 </html>

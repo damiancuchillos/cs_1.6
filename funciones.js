@@ -12,6 +12,16 @@ function funcionSimple(primerNumero, segundoNumero) {
     alert(resultado);
 }
 
+function funDam() {
+    alert("WIN");
+}
+
+function nuevaVentana() {
+    var myWindow = window.open("", "", "width=500, height=500");
+    myWindow.document.write("<p>Pablo comadreja</p>");
+    myWindow.blur();
+}
+
 function condicional(parametroNumerico) {
     /*
         > mayor
@@ -56,7 +66,7 @@ function condicional(parametroNumerico) {
 
 function iteracionFor(parametro) {
     console.log("El parámetro ingresado es: " + parametro);
-    for(let contador = 0; contador <= parametro; contador = contador + 1) {
+    for (let contador = 0; contador <= parametro; contador = contador + 1) {
         console.log(contador);
     }
 }
@@ -64,7 +74,7 @@ function iteracionFor(parametro) {
 function iteracionWhile(parametro) {
     console.log("El parámetro ingresado es: " + parametro);
     let contador = 0;
-    while(contador <= parametro) {
+    while (contador <= parametro) {
         console.log(contador);
         contador = contador + 1;
     }
