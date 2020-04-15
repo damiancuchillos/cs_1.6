@@ -12,12 +12,18 @@ function funcionSimple(primerNumero, segundoNumero) {
     alert(resultado);
 }
 
+function sumar(primerNumero, segundoNumero) {
+    const resultado = Number(primerNumero) + Number(segundoNumero);
+    alert("La suma es: " + resultado);
+    
+}
+
 function funDam() {
     alert("WIN");
 }
 
 function nuevaVentana() {
-    var myWindow = window.open("", "", "width=500, height=500");
+    let myWindow = window.open("", "", "width=500, height=500");
     myWindow.document.write("<p>Pablo comadreja</p>");
     myWindow.blur();
 }
