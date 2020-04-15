@@ -16,8 +16,7 @@ p {
   font-size: 200%;
 }
 
-a:link,
-a:visited {
+.a {
   background-color: #d8455d;
   color: white;
   padding: 1% 2%;
@@ -94,3 +93,4 @@ td {
 tr:nth-child(even) {
   background-color: #6d6565;
 }
+
