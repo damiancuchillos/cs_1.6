@@ -16,7 +16,7 @@ p {
   font-size: 200%;
 }
 
-.a {
+td > p > a {
   background-color: #d8455d;
   color: white;
   padding: 1% 2%;

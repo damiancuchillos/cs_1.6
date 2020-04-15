@@ -8,7 +8,7 @@ function secondFunction(parametro) {
 }
 
 function funcionSimple(primerNumero, segundoNumero) {
-    const resultado = primerNumero / segundoNumero;
+    const resultado = primerNumero + segundoNumero;
     alert(resultado);
 }
 
