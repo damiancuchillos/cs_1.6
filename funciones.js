@@ -15,7 +15,7 @@ function funcionSimple(primerNumero, segundoNumero) {
 function sumar(primerNumero, segundoNumero) {
     const resultado = Number(primerNumero) + Number(segundoNumero);
     alert("La suma es: " + resultado);
-    
+
 }
 
 function funDam() {
@@ -84,4 +84,17 @@ function iteracionWhile(parametro) {
         console.log(contador);
         contador = contador + 1;
     }
+}
+
+function sorpresa() {
+    // Obtenemos el div donde vamos a insertar la imagen
+    const div = document.getElementById('sorpresa');
+    // Borramos la imagen previa (si es que la hay)
+    div.textContent = '';
+    // Creamos el elemento imagen
+    let imagen = document.createElement("img");
+    // Le asignamos el source
+    imagen.src = "sorpresa!.jpg";
+    // Agregamos la imagen dentro del div
+    document.getElementById('sorpresa').appendChild(imagen);
 }

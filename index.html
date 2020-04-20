@@ -3,6 +3,13 @@
 
 <head>
     <title>Cs 1.6 Quarantine time</title>
+    <!-- Importamos Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Importamos nuestra propia hoja de estilo y de funciones -->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="funciones.js"></script>
 </head>
@@ -14,9 +21,11 @@
     <img class="center" src="Logo2.jpg">
     <img class="center" src="mira.png" width="9%" height="9%">
     <div class="divCenterX">
-        <button onclick="condicional(50);">Condicional</button>
-        <button onclick="iteracionFor(100);">Iteracion For</button>
-        <button onclick="iteracionWhile(500);">Iteracion While</button>
+        <button type="button" class="btn btn-primary" onclick="condicional(50);">Condicional</button>
+        <button type="button" class="btn btn-success" onclick="iteracionFor(100);">Iteracion For</button>
+        <button type="button" class="btn btn-warning" onclick="iteracionWhile(500);">Iteracion While</button>
+        <button type="button" class="btn btn-danger" onclick="sorpresa();">Sorpresa!</button>
+        <div class="divCenter" id="sorpresa"></div>
     </div>
     <div class="divCenterY">
         <h2>Audios</h2>
@@ -196,7 +205,8 @@
         <label for="numero2">Ingrese segundo numero:</label>
         <input type="number" id="numero2">
         <br><br>
-        <button onclick="sumar(document.getElementById('numero1').value,document.getElementById('numero2').value)">Sumar numeros
+        <button onclick="sumar(document.getElementById('numero1').value,document.getElementById('numero2').value)">Sumar
+            numeros
         </button>
     </div>
     <div id="poll" class="divCenterX">
